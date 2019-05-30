@@ -1,0 +1,55 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package fachada;
+
+/**
+ *
+ * @author RyukP
+ */
+public class Cliente {
+    private String nome;
+    private String cpf;
+    private String numero;
+
+    
+    public Cliente() {
+        
+    }
+
+    public Cliente(String nome, String cpf, String numero) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.numero = numero;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+    
+    
+    
+    
+}
